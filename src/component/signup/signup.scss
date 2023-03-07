@@ -1,0 +1,248 @@
+@import "../../assest/scss/variable.scss";
+
+* {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.head_container {
+  margin: 0 auto;
+  max-width: 98%;
+  width: 1920px;
+}
+.content_container {
+  margin: 0 auto;
+  max-width: 85%;
+  width: 1640px;
+}
+
+/* Menu Section */
+.head-sec {
+  background-image: url("../../assest/images/BG.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px !important;
+  height: auto;
+
+  .head-grid-sec {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.menu-bar {
+  font-family: Staatliches !important;
+  font-size: 21.33px !important;
+  line-height: 26px !important;
+  color: $color-white !important;
+  align-self: center !important;
+}
+
+.menu-bar:hover {
+  color: grey !important;
+}
+
+.menu-bar:active {
+  color: #438ac1 !important;
+}
+
+.signin-btn {
+  font-family: Staatliches !important;
+  font-size: 21.33px !important;
+  line-height: 26px !important;
+  background-color: $color-white !important;
+  color: $color-black !important;
+}
+
+.signin-btn:hover {
+  background-color: #438ac1 !important;
+}
+
+.signin-btn:active {
+  background-color: #438ac1 !important;
+}
+
+.signup-sec {
+  margin-top: 60px !important;
+  padding-bottom: 70px;
+}
+
+.sign-up-head-txt {
+  font-family: Staatliches !important;
+  font-size: 67.42px !important;
+  line-height: 84px !important;
+  color: $color-white !important;
+}
+
+.sign-up-breadcrumbs {
+  font-family: Roboto-Regular !important;
+  font-size: 21.33px !important;
+  line-height: 28.44px !important;
+  color: $color-white !important;
+}
+
+.form-sec {
+  width: 455px !important;
+  height: 45px !important;
+  background-color: #1b1b1b !important;
+  color: $color-white !important;
+  font-size: 16px !important;
+  line-height: 21px !important;
+  font-family: Roboto-Medium !important;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 2px solid #696969 !important;
+  border-bottom: 2px solid #696969 !important;
+
+  .form-sec::after {
+    border-bottom: none !important;
+  }
+}
+
+.password-sec {
+  .password-label {
+    background-color: #1b1b1b !important;
+    width: 455px !important;
+    height: 45px !important;
+    color: $color-white !important;
+    border: 2px solid #696969 !important;
+    border-bottom: 2px solid #696969 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    font-family: Roboto-Regular !important;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+  .password-label::after {
+    border-bottom: none !important;
+  }
+  .icon-button {
+    color: $color-white !important;
+  }
+}
+
+.repeat-pwd-label {
+  background-color: #1b1b1b !important;
+  width: 455px !important;
+  height: 45px !important;
+  color: $color-white !important;
+  border: 2px solid #696969 !important;
+  border-bottom: 2px solid #696969 !important;
+  font-size: 16px !important;
+  line-height: 21px !important;
+  font-family: Roboto-Regular !important;
+  margin-top: 15px;
+  border-radius: 5px;
+
+  .repeat-pwd-label::after {
+    border-bottom: none !important;
+  }
+}
+
+.checkbox {
+  color: $color-white !important;
+  padding: 0 !important;
+}
+
+.terms-con-sec {
+  padding-top: 20px;
+  .checkbox_txt {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Roboto-Regular;
+    color: $color-white;
+    padding-left: 7px;
+
+    .terms-con {
+      color: $color-white !important;
+      text-decoration-color: $color-white !important ;
+    }
+  }
+}
+
+.agree-btn {
+  margin-top: 30px;
+  .agree-signup-btn {
+    font-size: 21.33px !important;
+    line-height: 26px !important;
+    font-family: Staatliches !important;
+    color: $color-black !important;
+    text-align: center;
+    background-color: $color-white !important;
+    width: 455px !important;
+    height: 45px !important ;
+  }
+
+  .agree-signup-btn:hover {
+    background-color: #438ac1 !important;
+  }
+
+  .agree-signup-btn:active {
+    background-color: #438ac1 !important;
+  }
+}
+
+.or-sec {
+  display: flex;
+  flex-direction: row;
+}
+.or-sec:before,
+.or-sec:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  max-width: 37% !important;
+  align-self: flex-start !important;
+  border-color: $color-white !important;
+  border-width: 2px !important;
+  margin-top: 30px;
+}
+.or-sec:before {
+  margin-right: 10px;
+}
+.or-sec:after {
+  margin-left: 10px;
+}
+
+.or-txt {
+  font-size: 21.33px !important;
+  line-height: 26px !important;
+  font-family: Staatliches !important;
+  color: $color-white !important;
+  padding-top: 20px !important;
+}
+
+.facebook-logo {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.brand-logo {
+  padding-left: 150px;
+  padding-top: 25px;
+}
+
+.already-member-sec {
+  padding-top: 25px !important;
+  .already-member {
+    font-size: 21.33px !important;
+    line-height: 26px !important;
+    font-family: Staatliches !important;
+    color: $color-white !important;
+    text-decoration-color: $color-white !important ;
+    padding-left: 150px;
+  }
+}
+
+/* Menu Section  Over*/

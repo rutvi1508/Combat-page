@@ -1,0 +1,265 @@
+@import "../../assest/scss/variable.scss";
+
+* {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.profile-head_container {
+  margin: 0 auto;
+  max-width: 98%;
+  width: 1920px;
+  /* background-color: rgba(105, 105, 105, 0.5) !important; */
+}
+.content_container {
+  margin: 0 auto;
+  max-width: 85%;
+  width: 1640px;
+}
+
+.profile-head-sec {
+  background-image: url("../../assest/images/BG-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  padding: 10px !important;
+
+  .profile-head-grid-sec {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .profile-logo {
+    width: 42px;
+    height: 42px;
+    /*   margin: 0 !important; */
+  }
+}
+
+.profile-menu-bar {
+  font-family: Staatliches !important;
+  font-size: 21.33px !important;
+  line-height: 26px !important;
+  color: $color-white !important;
+  align-self: center !important;
+}
+
+.profile-menu-bar:hover {
+  color: $color-black !important;
+}
+
+.profile-menu-bar:active {
+  color: $color-black  !important;
+}
+
+.profile-signin-btn {
+  font-family: Staatliches !important;
+  font-size: 21.33px !important;
+  line-height: 26px !important;
+  background-color: $color-white !important;
+  color: $color-black !important;
+}
+
+.profile-signin-btn:hover {
+  background-color: #438ac1 !important;
+}
+
+.profile-signin-btn:active {
+  background-color: #438ac1 !important;
+}
+
+.signup-sec {
+  margin-top: 197px;
+}
+
+.profile-grid-sec {
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.profile-left-grid-sec {
+  border-right: 2px solid $color-white;
+  padding-right: 10px;
+}
+.profile--head-txt {
+  font-size: 67.42px;
+  line-height: 67.42px;
+  color: $color-white;
+  font-family: Staatliches;
+  text-align: left;
+}
+
+.profile-head-breadcrumbs {
+  padding-top: 20px;
+  .profile--small-txt {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Roboto-Regular;
+    color: $color-white;
+    text-align: left;
+  }
+}
+.profile-menu-items {
+  color: $color-white !important;
+  padding-top: 140px !important;
+}
+.profile-left-grid-menu {
+  font-size: 21.33px;
+  font-family: Staatliches;
+  line-height: 26px;
+  text-align: left;
+ /*  padding: 0 !important; */
+}
+/* .profile-left-grid-first-menu {
+  border-left: 3px solid $color-white !important;
+  height: 8% !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+
+}
+ */
+.tick-mark-txt{
+    display: flex;
+}
+
+.line-icon{
+    width: 5px !important;
+    height: 16px !important;
+    margin-top: 10px;
+}
+
+.tick-mark-icon{
+    width: 10.48px !important;
+    height: 7.81px !important;
+    padding-top: 12px;
+}
+
+.profile-right-grid-sec {
+  padding-left: 25px;
+}
+
+.profile-right-grid-head-txt {
+  font-size: 37.92px;
+  line-height: 47px;
+  font-family: Staatliches;
+  color: $color-white;
+}
+
+.disabled-chk {
+  color: #868686 !important ;
+  padding: 0 !important;
+}
+
+.disabled-chk-sec {
+  margin-top: 20px;
+}
+
+.chk_sec {
+  border-bottom: 1px solid #3d3e3f;
+}
+
+.chk_head-txt {
+  font-size: 21.33px;
+  line-height: 28px;
+  font-family: Roboto-Regular;
+  color: $color-white;
+  padding-left: 11px;
+}
+
+.chk_small-txt {
+  font-size: 12px !important;
+  line-height: 18px !important;
+  font-family: Roboto-Regular !important;
+  color: $color-white;
+  padding-left: 35px;
+  padding-bottom: 10px;
+}
+
+.multiple-chk-sec {
+  margin-top: 25px;
+  .select-profile-type {
+    font-size: 16px;
+    line-height: 21px;
+    color: $color-white;
+    font-family: Roboto-Regular !important;
+  }
+}
+
+.info-icon {
+  width: 15px !important;
+  height: 15px !important;
+  padding: 13px;
+}
+
+.group-chk-sec {
+  border-bottom: 1px solid #3d3e3f;
+}
+
+.group-chk {
+  color: $color-white !important ;
+  padding-left: 0 !important;
+  
+}
+
+.chk-txt-group{
+    display: flex;
+}
+
+.group_chk_label {
+  color: $color-white;
+  font-size: 21.33px !important;
+  line-height: 28px !important;
+  font-family: Roboto-Regular !important ;
+  margin: 0 !important;
+}
+
+.btn-sec {
+  display: flex;
+  .btns {
+    padding-top: 50px;
+    padding-bottom: 14px;
+
+    .back-btn {
+      font-family: Staatliches !important;
+      font-size: 21.33px !important;
+      line-height: 26px !important;
+      background-color: $color-white !important;
+      color: $color-black !important;
+      width: 305px;
+      height: 54px;
+    }
+
+    .Next-btn {
+      font-family: Staatliches !important;
+      font-size: 21.33px !important;
+      line-height: 26px !important;
+      background-color: #438ac1 !important;
+      color: $color-black !important;
+      width: 305px;
+      height: 54px;
+      margin-left: 15px;
+    }
+
+    .Next-btn:hover {
+      background-color: #438ac1 !important;
+    }
+  
+    .Next-btn:active {
+      background-color: #438ac1 !important;
+    }
+    
+    .back-btn:hover {
+      background-color: #438ac1 !important;
+    }
+  
+    .back-btn:active {
+      background-color: #438ac1 !important;
+    }
+
+  }
+}
